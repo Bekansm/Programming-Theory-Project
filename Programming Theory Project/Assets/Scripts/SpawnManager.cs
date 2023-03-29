@@ -26,8 +26,10 @@ public class SpawnManager : MonoBehaviour {
         }
     }
 
-    //Randomize functions - Abstraction
 
+// Abstraction
+
+    //Randomize functions 
     private int GiveRandomInt(int maxNumber) {
         return Random.Range(0, maxNumber);
     }

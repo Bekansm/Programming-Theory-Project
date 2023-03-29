@@ -5,7 +5,7 @@ using UnityEngine.AI;
 public abstract class Unit : MonoBehaviour {
 
 
-    //Whole class is example of Inheritance
+    //INHERITANCE
 
     protected NavMeshAgent unit;
     protected string collectibleTag;
